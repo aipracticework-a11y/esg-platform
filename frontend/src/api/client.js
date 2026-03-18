@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'http://localhost:8001',
+  baseURL: 'https://esg-platform-api-3b9r.onrender.com', 
   timeout: 30000,
 })
 
